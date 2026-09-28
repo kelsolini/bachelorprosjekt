@@ -1,0 +1,33 @@
+.section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-md);
+}
+
+.text {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-md);
+    font-weight: 70;
+    margin-bottom: var(--space-lg);
+}
+
+.title {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: var(--space-lg);
+    padding: var(--space-lg);
+    background: var(--color-surface);
+    border: var(--border);
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}

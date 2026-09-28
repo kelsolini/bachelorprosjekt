@@ -1,16 +1,17 @@
 import { profiles } from "../data/profiles";
 import ProfileCard from "./ProfileCard";
 
-import styles from "./styles/ProfileSection.module.css"
+import styles from "./styles/ProfileSection.module.css";
 
 const ProfileSection = () => {
     return (
-        <section id="team" className={styles.section}>
-            <h2 className={styles.text}>Bachelor gruppe 420 69</h2>
+        <section className={styles.section}>
 
-            <div className={styles.grid}>
+            <div className="grid-12-column">
                 {profiles.map((profile) => (
-                    <ProfileCard key={profile.name} profile={profile} />
+                    <div key={profile.name} className="xs-12 md-4">
+                        <ProfileCard profile={profile} />
+                    </div>
                 ))}
             </div>
         </section>
