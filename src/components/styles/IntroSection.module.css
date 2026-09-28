@@ -6,9 +6,16 @@
 
 .text {
     font-family: var(--font-heading);
-    font-size: var(--font-size-xl);
-    font-weight: 700;
+    font-size: var(--font-size-md);
+    font-weight: 70;
     margin-bottom: var(--space-lg);
+}
+
+.title {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 .card {
@@ -18,26 +25,9 @@
     align-items: flex-start;
     gap: var(--space-lg);
     padding: var(--space-lg);
-    background: var(--color-accent);
+    background: var(--color-surface);
     border: var(--border);
     box-shadow: var(--shadow);
     border-radius: var(--radius);
     transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.card:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 8px 8px 0 var(--color-border);
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-lg);
-}
-
-@media (min-width: 768px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
 }

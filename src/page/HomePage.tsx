@@ -1,9 +1,12 @@
-import { Footer, Header, ProfileSection } from "../components";
+import { Footer, Header, ProfileSection, IntroSection } from "../components";
 
 const HomePage = () => {
     return (
         <div>
             <Header />
+
+            <IntroSection />
+
             <div>HomePage</div>
 
             <ProfileSection />

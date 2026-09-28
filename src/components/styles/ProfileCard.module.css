@@ -18,7 +18,7 @@
 }
 
 .image {
-    width: 140px;
+    width: 200px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border: var(--border);
@@ -28,7 +28,7 @@
 .name {
     font-family: var(--font-heading);
     font-size: var(--font-size-lg);
-    font-weight: 700;
+    font-weight: 1000;
     line-height: 1.2;
 }
 

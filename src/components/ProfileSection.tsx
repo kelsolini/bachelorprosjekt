@@ -6,7 +6,7 @@ import styles from "./styles/ProfileSection.module.css"
 const ProfileSection = () => {
     return (
         <section id="team" className={styles.section}>
-            <h2 className={styles.title}>Bachelor gruppe 420 69</h2>
+            <h2 className={styles.text}>Bachelor gruppe 420 69</h2>
 
             <div className={styles.grid}>
                 {profiles.map((profile) => (
