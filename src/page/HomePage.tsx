@@ -13,13 +13,21 @@ const HomePage = () => {
       <main>
         <IntroSection />
         <ProfileSection />
-        <AboutBachelor />
-        <div className="grid-12-column ">
-          <div className="xs-12 md-12 lg-12">
-            <Carousel />
+        <div className="section">
+          <div className="grid-12-column">
+            <div className="xs-12 md-12 lg-12">
+              <Carousel />
+            </div>
+
+            <div className="xs-12 md-6 lg-6">
+              <AboutBachelor />
+            </div>
+
+            <div className="xs-12 md-6 lg-6">
+              <SkillSection />
+            </div>
           </div>
         </div>
-        <SkillSection />
       </main>
       <Footer />
     </>

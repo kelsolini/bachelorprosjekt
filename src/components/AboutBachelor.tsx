@@ -5,7 +5,7 @@ const AboutBachelor = () => {
     <>
       <section className={styles.section}>
         <div className={styles.card}>
-          <h3 className={styles.tilte}>Kort om bachelorprosjekt</h3>
+          <h3 className={styles.tilte}>Hva er bachelor prosjektet</h3>
           <div className={styles.text}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat

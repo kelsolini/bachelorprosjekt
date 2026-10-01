@@ -18,3 +18,9 @@ h2 {
 a:hover {
     color: var(--color-primary);
 }
+
+.section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-md);
+}
