@@ -1,33 +1,29 @@
-import { 
-    Footer, 
-    Header, 
-    ProfileSection, 
-    IntroSection, 
-    SkillSection, 
-    AboutBachelor, 
-
+import {
+  Footer,
+  ProfileSection,
+  IntroSection,
+  SkillSection,
+  AboutBachelor,
+  Carousel,
 } from "../components";
 
 const HomePage = () => {
-    return (
-        <>
-            <Header />
-                <main>
-                    <IntroSection />
-                    <ProfileSection />
-
-                    <div className="grid-12-column">
-                        <div className="xs-12 md-6">
-                            <AboutBachelor />
-                        </div>
-                        <div className="xs-12 md-6">
-                            <SkillSection />
-                        </div>
-                    </div>
-                </main>
-            <Footer />
-        </>    
-    );
+  return (
+    <>
+      <main>
+        <IntroSection />
+        <ProfileSection />
+        <AboutBachelor />
+        <div className="grid-12-column ">
+          <div className="xs-12 md-12 lg-12">
+            <Carousel />
+          </div>
+        </div>
+        <SkillSection />
+      </main>
+      <Footer />
+    </>
+  );
 };
 
 export default HomePage;

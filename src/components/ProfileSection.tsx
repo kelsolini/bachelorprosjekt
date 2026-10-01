@@ -1,21 +1,38 @@
+import { useState } from "react";
+
 import { profiles } from "../data/profiles";
+
 import ProfileCard from "./ProfileCard";
 
 import styles from "./styles/ProfileSection.module.css";
 
 const ProfileSection = () => {
-    return (
-        <section className={styles.section}>
+  const [selectedProfile, setSelectedProfile] = useState<string | null>(null);
 
-            <div className="grid-12-column">
-                {profiles.map((profile) => (
-                    <div key={profile.name} className="xs-12 md-4">
-                        <ProfileCard profile={profile} />
-                    </div>
-                ))}
-            </div>
-        </section>
-    );
+  return (
+    <section className={styles.section}>
+      <div className={styles.grid}>
+        {profiles.map((profile) => {
+          if (selectedProfile !== null && selectedProfile !== profile.name) {
+            return null;
+          }
+
+          return (
+            <ProfileCard
+              key={profile.name}
+              profile={profile}
+              isOpen={selectedProfile === profile.name}
+              onClick={() =>
+                setSelectedProfile(
+                  selectedProfile === profile.name ? null : profile.name,
+                )
+              }
+            />
+          );
+        })}
+      </div>
+    </section>
+  );
 };
 
 export default ProfileSection;

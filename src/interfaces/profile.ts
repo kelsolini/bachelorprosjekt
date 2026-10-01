@@ -1,8 +1,8 @@
 export interface Profile {
-    name: string,
-    description: string,
-    image: string
+  name: string;
+  description: string;
+  image: string;
+  study: string;
 
-    // Todo hva mer??
-    // .. 
+  //TODO: hva mer?
 }
