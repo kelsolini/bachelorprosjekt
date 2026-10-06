@@ -1,31 +1,63 @@
 .card {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: var(--space-md);
-
     padding: var(--space-lg);
-
     background: var(--color-accent);
     border: var(--border);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-
     cursor: pointer;
-
     transition:
         transform 0.15s ease,
         box-shadow 0.15s ease;
 }
 
 .card:hover {
-    transform: translate(-2px, -2px);
+   /* transform: translate(-2px, -2px);*/
     box-shadow: 8px 8px 0 var(--color-border);
     background: var(--color-accent-2);
 }
 
+
+/* Trykk meg */
+
+.clickHint {
+    position: fixed;
+    padding: 5px 10px;
+    background-color: var(--color-accent);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    font-family: var(--font-heading);
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+
+/* Åpent kort */
+
 .open {
     grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: flex-start;
 }
+
+.open .clickHint {
+    display: none;
+}
+
+.open .content {
+    flex: 1;
+}
+
+
+/* Bilde */
 
 .image {
     width: 100%;
@@ -34,11 +66,22 @@
     border: var(--border);
 }
 
+.open .image {
+    width: 30%;
+    flex-shrink: 0;
+}
+
+
+/* Innhold */
+
 .content {
     display: flex;
     flex-direction: column;
     gap: var(--space-sm);
 }
+
+
+/* Navn */
 
 .name {
     margin: 0;
@@ -48,23 +91,29 @@
     line-height: 1.2;
 }
 
+
+/* Beskrivelse */
+
 .description {
     margin: 0;
     font-size: var(--font-size-md);
     color: var(--color-text-muted);
 }
 
+
+/* Studieretning */
+
 .study {
     margin: 0;
+    font-family: var(--font-heading);
+    font-weight: 600;
 }
+
+
+/* Mer informasjon */
 
 .moreInfo {
-    margin-top: var(--space-md);
-    padding-top: var(--space-md);
-    border-top: var(--border);
-}
-
-.open .image {
-    width: 30%;
-    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
 }

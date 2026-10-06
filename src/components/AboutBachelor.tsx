@@ -5,13 +5,28 @@ const AboutBachelor = () => {
     <>
       <section className={styles.section}>
         <div className={styles.card}>
-          <h3 className={styles.tilte}>Hva er bachelor prosjektet</h3>
           <div className={styles.text}>
+            <h2 className={styles.tilte}>Hva innebærer det?</h2>
+            <h3>Fra utfordring til løsning</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              magnam et magni. Itaque, ratione eius et, corporis sed labore
-              quaerat reiciendis aliquam, quo quasi laboriosam sunt inventore
-              impedit. Animi, reiciendis.
+              Vi trenger ikke at dere kommer med en ferdig idé. Fortell oss
+              heller om en utfordring, så undersøker vi den sammen.
+            </p>
+            <p>
+              Gjennom prosjektet kan vi blant annet jobbe med research, UX,
+              design og utvikling for å finne og bygge en løsning som faktisk
+              gir mening for dere.
+            </p>
+            <h3>Hva trenger vi fra dere?</h3>
+            <p>
+              Vi trenger først og fremst noen å sparre med underveis – en person
+              som kjenner virksomheten, kan svare på spørsmål og gi oss
+              tilbakemeldinger.
+            </p>
+            <p>
+              Som utgangspunkt forventer Kristiania også at samarbeidspartneren
+              kan stille med arbeidsplass 3–4 dager i uken, samt nødvendig
+              maskinvare og programvare.
             </p>
           </div>
         </div>

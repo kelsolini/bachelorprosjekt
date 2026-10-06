@@ -5,3 +5,4 @@ export { default as IntroSection } from "./IntroSection";
 export { default as SkillSection } from "./SkillSection";
 export { default as AboutBachelor } from "./AboutBachelor";
 export { default as Carousel } from "./Carousel";
+export { default as ContactBtn } from "./ContactBtn";

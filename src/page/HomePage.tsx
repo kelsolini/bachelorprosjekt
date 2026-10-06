@@ -1,20 +1,24 @@
 import {
-  Footer,
   ProfileSection,
   IntroSection,
   SkillSection,
   AboutBachelor,
   Carousel,
+  Footer,
 } from "../components";
 
 const HomePage = () => {
   return (
     <>
       <main>
-        <IntroSection />
-        <ProfileSection />
         <div className="section">
           <div className="grid-12-column">
+            <div className="xs-12 md-12 lg-12">
+              <IntroSection />
+            </div>
+            <div className="xs-12 md-12 lg-12">
+              <ProfileSection />
+            </div>
             <div className="xs-12 md-12 lg-12">
               <Carousel />
             </div>
@@ -28,8 +32,8 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 };
