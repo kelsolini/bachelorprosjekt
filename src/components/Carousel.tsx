@@ -74,20 +74,30 @@ const Carousel = () => {
 
   return (
     <>
-      <div className={styles.CarouselWrapper}>
-        <div className={styles.Carousel}>
-          {skills.map((skill) => (
-            <div className={styles.Skill} key={skill.name}>
-              <img className={styles.Logo} src={skill.icon} alt={skill.name} />
-              <span className={styles.SkillName}>{skill.name}</span>
-            </div>
-          ))}
-          {skills.map((skill) => (
-            <div className={styles.Skill} key={skill.name}>
-              <img className={styles.Logo} src={skill.icon} alt={skill.name} />
-              <span className={styles.SkillName}>{skill.name}</span>
-            </div>
-          ))}
+      <div className={styles.section}>
+        <div className={styles.CarouselWrapper}>
+          <div className={styles.Carousel}>
+            {skills.map((skill) => (
+              <div className={styles.Skill} key={skill.name}>
+                <img
+                  className={styles.Logo}
+                  src={skill.icon}
+                  alt={skill.name}
+                />
+                <span className={styles.SkillName}>{skill.name}</span>
+              </div>
+            ))}
+            {skills.map((skill) => (
+              <div className={styles.Skill} key={skill.name}>
+                <img
+                  className={styles.Logo}
+                  src={skill.icon}
+                  alt={skill.name}
+                />
+                <span className={styles.SkillName}>{skill.name}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

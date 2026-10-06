@@ -7,6 +7,25 @@
         transform: translateX(calc(-50% - 12.5px));
     }
 }
+.section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--space-md) 0 0 0 ;
+}
+
+.text {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-md);
+    font-weight: 70;
+    margin-bottom: var(--space-lg);
+}
+
+.title {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    line-height: 1.2;
+}
 
 .Skill {
     position: relative;
@@ -109,6 +128,20 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+}
+
+@media (width >= 768px) {
+    .Skill:hover .SkillName {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+@media (width < 768px) {
+    .SkillName {
+        display: none;
+    }
 }
 
 .CarouselWrapper:hover .Carousel {

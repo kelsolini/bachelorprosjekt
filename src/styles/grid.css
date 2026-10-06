@@ -9,7 +9,7 @@
 .grid-12-column {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: var(--space-lg);
+    gap: var(--space-md);
 }
 
 /* EXTRA SMALL – alle skjermer */

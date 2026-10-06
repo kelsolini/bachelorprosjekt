@@ -1,7 +1,11 @@
+import styles from "./styles/Footer.module.css";
+
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer className={styles.footer}>
+      <p>&copy; 2026 Laget med React og kjærlighet</p>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
