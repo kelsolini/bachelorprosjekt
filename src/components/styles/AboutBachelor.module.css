@@ -31,3 +31,24 @@
     border-radius: var(--radius);
     transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* avstand mellom overskrift, avsnitt, h3 og liste */
+}
+
+.text h3 {
+  margin-top: 1rem; /* litt ekstra luft før den nye seksjonen */
+}
+
+.text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* avstand mellom hvert punkt */
+  padding-left: 1.25rem; /* gjør at kulepunktene vises */
+}
+
+.text p {
+  line-height: 1.6; /* mer luft mellom linjene i avsnittet */
+}

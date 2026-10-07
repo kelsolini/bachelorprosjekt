@@ -18,16 +18,18 @@ const ProfileSection = () => {
           }
 
           return (
-            <ProfileCard
-              key={profile.name}
-              profile={profile}
-              isOpen={selectedProfile === profile.name}
-              onClick={() =>
-                setSelectedProfile(
-                  selectedProfile === profile.name ? null : profile.name,
-                )
-              }
-            />
+            <>
+              <ProfileCard
+                key={profile.name}
+                profile={profile}
+                isOpen={selectedProfile === profile.name}
+                onClick={() =>
+                  setSelectedProfile(
+                    selectedProfile === profile.name ? null : profile.name,
+                  )
+                }
+              />
+            </>
           );
         })}
       </div>

@@ -24,3 +24,46 @@ a:hover {
     margin: 0 auto;
     padding: var(--space-xl) var(--space-md);
 }
+
+.home-content {
+    position: relative;
+}
+
+.trykk-image {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 220px;
+    left: -110px;
+    z-index: 10;
+    pointer-events: none;
+    transform: rotate(-14deg);
+     animation: trykk-wobble 3s ease-in-out infinite;
+}
+
+@media (max-width: 1199px) {
+    .trykk-image {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .trykk-image {
+        display: none;
+    }
+}
+
+@keyframes trykk-wobble {
+    0% {
+        transform: rotate(-8deg);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
+
+    100% {
+        transform: rotate(-8deg);
+    }
+}
+
