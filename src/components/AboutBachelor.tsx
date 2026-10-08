@@ -6,28 +6,26 @@ const AboutBachelor = () => {
       <section className={styles.section}>
         <div className={styles.card}>
           <div className={styles.text}>
-            <h2 className={styles.tilte}>Hva innebærer det?</h2>
-            <h3>Fra utfordring til løsning</h3>
+            <h2 className={styles.tilte}>Hva går det ut på?</h2>
             <p>
-              Vi trenger ikke at dere kommer med en ferdig idé. Fortell oss
-              heller om en utfordring, så undersøker vi den sammen.
+              Bachelorprosjektet er avslutningen på studiet vårt. Vi jobber med
+              en oppgave fra dere, og leverer en løsning dere faktisk kan ta i
+              bruk. Prosjektet går fra januar til mai, og vi jobber 3–4 dager i
+              uken. Dere eier sluttproduktet, og vi blir fulgt opp av en
+              veileder fra Kristiania hele veien.
             </p>
-            <p>
-              Gjennom prosjektet kan vi blant annet jobbe med research, UX,
-              design og utvikling for å finne og bygge en løsning som faktisk
-              gir mening for dere.
-            </p>
-            <h3>Hva trenger vi fra dere?</h3>
-            <p>
-              Vi trenger først og fremst noen å sparre med underveis – en person
-              som kjenner virksomheten, kan svare på spørsmål og gi oss
-              tilbakemeldinger.
-            </p>
-            <p>
-              Som utgangspunkt forventer Kristiania også at samarbeidspartneren
-              kan stille med arbeidsplass 3–4 dager i uken, samt nødvendig
-              maskinvare og programvare.
-            </p>
+
+            <h3>Dette bør bedriften tenke på</h3>
+
+            <ul>
+              <li>
+                Et IT-prosjekt som passer for tre studenter fra januar til mai
+              </li>
+              <li>En kontaktperson hos dere som kan veilede oss underveis</li>
+              <li>En arbeidsplass hos dere, helst 3–4 dager i uken</li>
+              <li>Tilgang til systemer og programvare prosjektet krever</li>
+              <li>Signering av en samarbeidskontrakt fra Kristiania</li>
+            </ul>
           </div>
         </div>
       </section>

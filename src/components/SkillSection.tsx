@@ -5,10 +5,32 @@ const SkillSection = () => {
   return (
     <section className={styles.section}>
       <div className={styles.card}>
-        <h3 className={styles.title}>Kontakt Oss</h3>
+        <h2 className={styles.title}>Kontakt Oss</h2>
         <div>
           <div className={styles.text}>
-            <p></p>
+            <p>
+              Har dere en app, en nettside eller et internt verktøy dere aldri
+              har fått tid til? Da vil vi gjerne høre fra dere.
+            </p>
+
+            <p>
+              Ta kontakt for en uforpliktende prat, enten hos dere eller på
+              video. Passer prosjektet, sender Kristiania en kontrakt som begge
+              parter signerer. Vi starter i januar, så jo før vi kommer i gang,
+              jo bedre.
+            </p>
+
+            <h3>
+              Vil dere vite mer om ordningen? Se{" "}
+              <a
+                href="https://www.kristiania.no/arbeidsliv/bachelorprosjekt/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Kristianias side om bachelorprosjektet
+              </a>
+              .
+            </h3>
           </div>
         </div>
         <CotactBtn />

@@ -12,10 +12,15 @@ const HomePage = () => {
     <>
       <main>
         <div className="section">
-          <div className="grid-12-column">
+          <div className="grid-12-column home-content">
             <div className="xs-12 md-12 lg-12">
               <IntroSection />
             </div>
+            <img
+              className="trykk-image"
+              src="../images/trykk.png"
+              alt="Trykk"
+            />
             <div className="xs-12 md-12 lg-12">
               <ProfileSection />
             </div>

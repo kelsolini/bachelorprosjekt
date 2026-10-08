@@ -4,19 +4,12 @@ const IntroSection = () => {
   return (
     <section className={styles.section}>
       <div className={styles.card}>
-        <h1 className={styles.title}>
-          Vi har studentene. Har dere prosjektet?
-        </h1>
+        <h1 className={styles.title}>Hjelp vi trenger prosjekt</h1>
         <p>
-          Vi er tre studenter ved Høyskolen Kristiania som studerer frontend- og
-          mobilutvikling. Våren 2027 skal vi gjennomføre bachelorprosjektet
-          vårt, og vi har lyst til å bruke det på noe som faktisk kan være
-          nyttig.
-        </p>
-        <p>
-          Har dere en idé som aldri har kommet øverst på prioriteringslista? En
-          arbeidsprosess som kunne vært enklere? Eller kanskje et problem dere
-          lenge har tenkt at «noen burde gjøre noe med»?
+          Vi er tre sisteårsstudenter ved Høyskolen Kristiania som skal
+          gjennomføre bachelorprosjektet vårt våren 2027. Nå ser vi etter en
+          bedrift som har et reelt IT-prosjekt vi kan ta tak i, enten det er en
+          app, en nettside, et internt verktøy eller noe helt annet. nyttig.
         </p>
       </div>
     </section>

@@ -33,18 +33,21 @@
     --max-width: 1100px;
 }
 
+
 /* Dark mode */
+/*
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-bg: #1a1a1a;
-        --color-surface: #262626;
-        --color-sidebar: #2f4a36;
-        --color-accent: #d9ad3c;
-        --color-accent-2: #b98bbb;
-        --color-text: #f5f0e6;
-        --color-text-muted: #c4c0b8;
-        --color-border: #f5f0e6;
-        --color-button: #f5f0e6;
+        --color-bg: #121212;
+        --color-surface: #1e1e1e;
+        --color-sidebar: #8fbf9a;
+        --color-accent: #e8bd4f;
+        --color-accent-2: #e3a8e5;
+        --color-text: #f0f0f0;
+        --color-text-muted: #a8a8a8;
+        --color-border: #000000;
+        --color-button: #e8bd4f;
         --color-button-text: #111111;
+        --color-on-accent: #111111;
     }
-}
+}*/

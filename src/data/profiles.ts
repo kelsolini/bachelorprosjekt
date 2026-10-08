@@ -13,7 +13,8 @@ export const profiles: Profile[] = [
     fullName: "Fabian Christopher Birkedal",
     name: "Fabian",
     age: "27",
-    description: "fabian liker retro sykkler. på fritiden skrur ha sykkler",
+    description:
+      "Fabian er en kreativ og energisk fyr med fagutdanning i grafisk design, og et godt øye for typografi, komposisjon og visuell helhet. Etter hvert ble han nysgjerrig på hvordan ting faktisk bygges, og nå driver han med utvikling for web og mobil. Han liker både frontend og backend, fra å forme brukergrensesnittet til å få logikken og dataene bak til å fungere. Målet hans er løsninger som ser bra ut og er enkle å bruke.",
     image: "/images/fabian.jpg",
     study: "Informasjonsteknologi - Frontend- og mobilutvikling",
   },
