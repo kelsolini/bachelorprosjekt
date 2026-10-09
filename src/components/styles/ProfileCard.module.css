@@ -39,6 +39,11 @@
     z-index: 9999;
 }
 
+@media (hover: none), (pointer: coarse) {
+    .clickHint {
+        display: none;
+    }
+}
 
 /* Åpent kort */
 
