@@ -56,7 +56,9 @@ const ProfileCard = ({ profile, isOpen, onClick }: ProfileCardProps) => {
 
         {isOpen && (
           <div className={styles.moreInfo}>
-            <h3 className={styles.name}>{profile.fullName}</h3>
+            <h3 className={styles.name}>
+              {profile.fullName}, {profile.age}
+            </h3>
             <h4 className={styles.study}>{profile.study}</h4>
             <p className={styles.description}>{profile.description}</p>
           </div>

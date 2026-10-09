@@ -14,10 +14,9 @@ const SkillSection = () => {
             </p>
 
             <p>
-              Ta kontakt for en uforpliktende prat, enten hos dere eller på
-              video. Passer prosjektet, sender Kristiania en kontrakt som begge
-              parter signerer. Vi starter i januar, så jo før vi kommer i gang,
-              jo bedre.
+              Ta kontakt for en uforpliktende prat. Passer prosjektet, sender
+              Kristiania en kontrakt som begge parter signerer. Vi starter i
+              januar, så jo før vi kommer i gang, jo bedre.
             </p>
 
             <h3>
